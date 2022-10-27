@@ -1,0 +1,150 @@
+*{
+    background-color: #14213d;
+}
+button{
+    cursor: pointer;
+}
+.Title h2{
+    background-color: #fca311;
+    font-size: 30px;
+    text-align: center;
+    padding: 12px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.Working{
+    border: solid black 3px;
+    width:50%;
+    margin-left: 25%;
+}
+.Start{
+    background-color: #fca311;
+    border:solid black 2px;
+    font-size:20px;
+    width:60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding:5px;
+    font-weight: bold;
+}
+.Dial_Pad{
+    /* border: solid black 3px; */
+    width:70%;
+    margin-left: 15%;
+    margin-top: 60px;
+    
+}
+.Dial_Pad button{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Dial_Pad button:hover{
+    background-color: #f3e95a;
+}
+.pad{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 15px;
+    border: solid black 3px;
+}
+.Display_Seq{
+    background-color: #fca311;
+    border:solid black 2px;
+    font-size:20px;
+    width:58%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding:5px;
+    text-align: center;
+    font-weight: bold;
+}
+.Display_Status{
+    background-color: #fca311;
+    border:solid black 2px;
+    font-size:20px;
+    width:58%;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding:5px;
+    text-align: center;
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+
+
+
+
+  .Instruction{
+    background-color: #fca311;
+    width:70%;
+    margin-left: 15%;
+    margin-top: 70px;
+    border: solid black 4px;
+    margin-bottom: 70px;
+  }
+
+
+  .Instruction h2{
+    background-color: #fca311;
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    border: solid black 3px;
+    margin-left: 5%;
+    width:90%;
+    border-radius: 5px;
+  }
+
+
+
+  .Instruction p{
+    background-color: #fca311;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+    margin-left: 5%;
+    font-family:system-ui;
+  }
+
+  .Instruction h3{
+    background-color: #fca311;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration:underline;
+    margin-left: 5%;
+    width:90%;
+    border-radius: 5px;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .Title h2{
+        font-size: 25px;
+    }
+    .Working{
+        border: solid black 3px;
+        width:90%;
+        margin-left: 5%;
+    }
+    
+  .Instruction{
+    background-color: #fca311;
+    width:90%;
+    margin-left: 5%;
+    margin-top: 70px;
+    border: solid black 4px;
+  }
+
+  }
